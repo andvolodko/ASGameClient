@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Game">
+    <configurations>
+      <configuration name="Game" pure-as="true" main-class="org.volodko.ra2game.Game" output-file="Game.swf" output-folder="$MODULE_DIR$/bin">
+        <dependencies target-player="11.5">
+          <entries>
+            <entry library-id="1c085a24-68fb-4cfb-9977-95120102801c">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="4029b847-aad9-46f8-abdd-08161aa14574">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="1083631d-7266-4461-b9ff-3b004f623f7c">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="e517a9c4-5d5a-4101-aac5-5911162357e2">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flex_sdk_4.6_last" />
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.define" value="CONFIG::release&#9;false&#10;CONFIG::debug&#9;true" />
+          </map>
+          <option name="additionalOptions" value="-frame=start,org.volodko.ra2game.Game -default-size 900 500 -use-network=true -swf-version=18" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="GameLibs" level="project" />
+    <orderEntry type="jdk" jdkName="flex_sdk_4.6_last" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="1c085a24-68fb-4cfb-9977-95120102801c" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/starling.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="4029b847-aad9-46f8-abdd-08161aa14574" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Resources/Deso.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="1083631d-7266-4461-b9ff-3b004f623f7c" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Resources/RA2.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="e517a9c4-5d5a-4101-aac5-5911162357e2" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/tweener.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
